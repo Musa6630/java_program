@@ -1,11 +1,12 @@
 public class cwh07_resulting_data_types {
     public static void main(String[] args) {
-         /* byte x = 5;
+          byte x = 5;
         int y = 6;
         short z = 8;
         int a = y + z;
         float b = 6.54f + x;
-        System.out.println(b); */
+        System.out.println(b);
+        /*
 
         // Increment and Decrement Operators
         int i = 56;
@@ -20,5 +21,7 @@ public class cwh07_resulting_data_types {
         System.out.println( ++y *8);
         char ch = 'a';
         System.out.println(++ch);
+
+        */
     }
 }
