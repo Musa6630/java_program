@@ -2,7 +2,9 @@ import java.util.Scanner;
 
 public class CWH_15_practice_set_SolutionsCH4 {
     public static void main(String[] args) {
-       /*
+
+       //question no 1 will give an error.
+
         //question no 2
         Subject mark1 = new Subject();
         System.out.println("Enter marks in physics");
@@ -34,7 +36,7 @@ public class CWH_15_practice_set_SolutionsCH4 {
         else if (percentage<40){
             System.out.println("fail");
         }
-        */
+
         /*
     //question 3
         int amount;
@@ -59,6 +61,7 @@ public class CWH_15_practice_set_SolutionsCH4 {
             System.out.println("Tax paid by employee: " + tax_amount3);
         }
          */
+        /*
         //question 4
         int number;
         System.out.println("Enter day number: ");
@@ -86,7 +89,39 @@ public class CWH_15_practice_set_SolutionsCH4 {
                 System.out.println("Sunday");
                 break;
         }
+         */
+        /*
         //Question 5
+        int year;
+        System.out.println("Enter year: ");
+        Scanner input = new Scanner(System.in);
+        year = input.nextInt();
+
+        if (year % 4 == 0 && year % 100 ==0 && year % 400 ==0){
+            System.out.println(year + " is leap year");
+        }
+        else {
+            System.out.println(year + " is not a leap year");
+        }
+         */
+        /*
+        //Question 6
+        String site;
+        System.out.println("Enter URL of website: ");
+        Scanner input =new Scanner(System.in);
+        site = input.nextLine();
+        if (site.endsWith(".com/")){
+            System.out.println("This is Commercial website");
+        }
+        else if (site.endsWith(".org/")){
+            System.out.println("This is Organisational website");
+        }
+        if (site.endsWith(".in/")){
+            System.out.println("This is Indian website");
+        }
+
+         */
+
 
         }
     }
