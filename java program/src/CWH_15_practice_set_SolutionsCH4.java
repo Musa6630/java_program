@@ -48,16 +48,16 @@ public class CWH_15_practice_set_SolutionsCH4 {
         int tax_amount2 = (amount*20/100);
         int tax_amount3 = (amount*30/100);
 
-        if (amount<250000){
+        if (amount<=250000){
             System.out.println("the tax paid by employee is 000");
         }
-        else if (amount>250000 && amount<500000){
+        else if (amount>250000 && amount<=500000){
             System.out.println("tax paid by employee " + tax_amount1);
         }
-        else if (amount>500000 && amount<1000000){
+        else if (amount>500000 && amount<=1000000){
             System.out.println("Tax paid by employee: " + tax_amount2);
         }
-        if (amount>1000000){
+        if (amount>=1000000){
             System.out.println("Tax paid by employee: " + tax_amount3);
         }
          */
