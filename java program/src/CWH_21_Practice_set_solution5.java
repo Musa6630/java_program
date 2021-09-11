@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CWH_21_Practice_set {
+public class CWH_21_Practice_set_solution5 {
     public static void main(String[] args) {
         /*
         //question 1
