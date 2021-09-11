@@ -25,6 +25,7 @@ public class CWH_18_For_Loop {
         for (i=1; i<m; i=i+2)
         {
             System.out.println(i);
+            System.out.println();
         }
 
         //decrementing for loop
