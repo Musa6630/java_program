@@ -1,4 +1,4 @@
-public class CWH_24_multi_dim_array {
+public class CWH_24_2D_Array {
     public static void main(String[] args) {
         int[][] students=new int[3][4];
         students[0][0]=97;
